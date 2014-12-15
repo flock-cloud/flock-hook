@@ -1,0 +1,24 @@
+{
+  "name": "flock",
+  "version": "1.0.0",
+  "description": "Flock - Next Generation Deployments",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:palmerabollo/flock.git"
+  },
+  "keywords": [
+    "mesos",
+    "deploy",
+    "flock"
+  ],
+  "author": "Guido García",
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^2.0.6",
+    "marathon-node": "git://github.com/palmerabollo/marathon-node.git#master"
+  }
+}
