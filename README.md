@@ -1,4 +1,4 @@
-flock
-=====
+flock-hook
+==========
 
-Flock - Next Generation Deployments
+Flock - github hook based on firebase (beta)

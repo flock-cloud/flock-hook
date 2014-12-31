@@ -1,7 +1,7 @@
 {
   "name": "flock",
   "version": "1.0.0",
-  "description": "Flock - Next Generation Deployments",
+  "description": "Flock - git hook",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,6 +19,7 @@
   "license": "MIT",
   "dependencies": {
     "firebase": "^2.0.6",
-    "marathon-node": "git://github.com/palmerabollo/marathon-node.git#master"
+    "marathon.node": "^0.0.1",
+    "request": "^2.51.0"
   }
 }
