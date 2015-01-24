@@ -1,0 +1,15 @@
+{
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "dockerfile/nodejs"
+    }
+  },
+  "id": "http-server",
+  "instances": 3,
+  "cpus": 0.1,
+  "mem": 48,
+  "uris": [],
+  "cmd": "npm install http-server -g && http-server /tmp -p $PORT0",
+  "ports": [ 0 ]
+}

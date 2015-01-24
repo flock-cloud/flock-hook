@@ -1,0 +1,15 @@
+{
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "redis"
+    }
+  },
+  "id": "redis",
+  "instances": 1,
+  "cpus": 0.1,
+  "mem": 32,
+  "uris": [],
+  "cmd": "redis-server --port $PORT0",
+  "ports": [ 0 ]
+}
